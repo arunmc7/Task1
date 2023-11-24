@@ -1,38 +1,310 @@
-.App {
-  text-align: center;
+.pro{
+  background-color:#e3f1fe;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background-color:#e3f1fe;
+  font-family: 'Lora';
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btnxyz{
+
+  border: none;
+  margin-left: 80%;
+  background-color: white;
+  border-radius: 5px;
+  height: 37px;
+  font-weight: bold;
+  box-shadow: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btnarw{
+
+  border: none;
+  margin-left: 5px;
+  width: 40px;
+  background-color: white;
+  border-radius: 5px;
+  height: 37px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.nav{
+  padding: 0;
+  margin-top: -5px;
+  margin-left: -6px;
+}
+
+.btnxyz:hover{
+  background-color: #ffcc80;
+  cursor: pointer;
+}
+
+.btnarw:hover{
+  background-color: #ffcc80;
+  cursor: pointer;
+}
+
+.taskbar{
+  width: 210px;
+  background-color:white;
+  height: 600px;
+  margin-top: 31px;
+  margin-left: -6px;
+}
+.t1{
+
+  height: 160px;
+  background-color: white;
+  margin-left: -1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.t1 img{
+  border-radius: 50%;
+  width: 100px;
+  height: 70px;
+  margin-left: 48px;
+  margin-top: 17px;
+
+}
+.t1 h4{
+  margin-left: 54px;
+  margin-top: 0%;
+  background-color: white;
+}
+
+.t1 h6{
+  margin-left: 43px;
+  margin-top: -20px;
+  background-color: white;
+}
+
+.t2{
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  height: 440px;
+  margin-top: 3px;
+}
+
+.t2 button{
+  margin-top: 20px;
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #e4e0e0;
+  background-color: white;
+  letter-spacing: 2px;
+}
+
+.t2 button:hover{
+  background-color:#e3f1fe ;
+}
+
+.main{
+  background-color: white;
+  height: 600px;
+  width: 1200px;
+  margin-left: 6px;
+  margin-top: 30px;
+}
+
+.main h3{
+  background-color: white;
+  margin-left: 70px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.mainhead{
+  background-color: white;
+  display: flex;
+}
+
+.mbtn{
+  margin-left: 430px;
+  background-color: white;
+  margin-top: 40px;
+}
+.mbtn button{
+
+  width: 130px;
+  height: 30px;
+  letter-spacing: 1px;
+
+}
+
+
+.btn1{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: none;
+  background-color: #e3f1fe;
+
+}
+
+.btn2{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -6px;
+  background-color: white;
+
+}
+
+.mbtn span{
+  background-color: white;
+  font-size: 10px;
+  color: red;
+}
+
+
+.maincn1{
+  background-color: white;
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+  gap: 70px;
+}
+
+.cd1{
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding-left: 15px;
+  letter-spacing: 1px;
+  
+  
+}
+
+.line {
+  border-bottom: 1px solid #554e4e; 
+  width: 90%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+}
+
+.cd1 h6{
+  text-decoration: line-through;
+  color: red;
+  margin-top: -15px;
+}
+.cd1 h5 {
+  margin-top: -2px; 
+}
+.cd1 a{
+  margin-top: -2px;
+  color: black;
+}
+
+
+
+.cd1 h5{
+  font-size: 10px;
+}
+.price{
+  margin-top: -20px;
+}
+
+.cd1 button{
+  width: 150px;
+  height:30px ;
+  margin-top: -5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.lw1{
+  width: 550px;
+  height: 190px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+.lw1 h5{
+ margin-top: opx;
+ font-size: 11px;
+}
+
+.lw1 h1{
+  font-size: 25px;
+}
+
+.sm{
+  background-color: #c6ff8e;
+  width: 80px;
+  height:20px ;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.bg{
+  width: 150px;
+  height:30px ;
+  margin-top: -10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #c6ff8e;
+
+}
+
+.lw1 p{
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.maincn2{
+  display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide (phones) */
+
+  .nav {
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  .taskbar {
+   width: 0px;
+  }
+
+  .maincn1,
+  .maincn2 {
+    display: block;
+   
+  }
+
+  .cd1 {
+    margin: 3px;
+    padding: 5px;
+  }
+
+  .lw1 {
+    margin: 3px;
+    padding: 5px;
   }
 }
+
+
+
+
+
+
+
+
+
+
